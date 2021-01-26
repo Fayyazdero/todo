@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from './components/Button';
-import Random from './components/Random'
+import Random from './components/Random';
 import "./App.css";
 export const Todo = () => {
   const [text, setText] = useState("");
